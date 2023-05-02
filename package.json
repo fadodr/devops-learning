@@ -1,0 +1,31 @@
+{
+  "name": "devops-learning",
+  "version": "1.0.0",
+  "description": "this is a devops training class",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadodr/devops-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fadodr/devops-learning/issues"
+  },
+  "homepage": "https://github.com/fadodr/devops-learning#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
